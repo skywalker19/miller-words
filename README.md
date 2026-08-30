@@ -15,10 +15,12 @@ miller-words/
     ├── story-001.md           # Natural sentences and picture-based activities
     └── review-log.md           # Lightweight retrieval-practice record
 ├── output/
-    ├── html/story-001.html    # Browser-friendly version
+    ├── html/story-001.html    # Story, daily word chart, and matching exam
     └── pdf/story-001.pdf      # Print version, two scenes per page
-└── scripts/
-    └── make_story_pdf.py      # Rebuilds the printable PDF
+├── scripts/
+│   └── make_story_pdf.py      # Rebuilds the printable PDF
+├── openspec/                  # Spec-driven change planning
+└── .agents/skills/            # OpenSpec skills for Codex
 ```
 
 ## Workflow for each reading session
@@ -30,7 +32,7 @@ miller-words/
 5. Add a short story using the words in natural English. Use several short sentences rather than one long sentence that merely forces every word in.
 6. Generate one picture per scene. Use pictures as recall cues, then practice once without labels.
 7. Ask Miller to recall and say the sentences aloud. Correct gently, then revisit the same words after 1, 3, 7, and 14 days.
-8. Open the HTML for screen practice or print the PDF. The PDF uses two scenes per page.
+8. Open the HTML for screen practice or print the PDF. The HTML shows the daily new-word chart and a matching exam; correct matches are remembered in that browser. The PDF uses two scenes per page.
 
 ## Design principles
 
