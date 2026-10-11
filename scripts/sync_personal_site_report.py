@@ -8,7 +8,7 @@ from pathlib import Path
 root = Path(__file__).resolve().parents[1]
 stage = root / 'output/site-staging'
 site = root.parent / 'personal-site'
-baseline = json.loads((stage / 'baseline.json').read_text())
+baseline = json.loads((root / '.site-staging-baseline.json').read_text())
 for relative, expected in baseline.items():
     target = site / relative
     actual = hashlib.sha256(target.read_bytes()).hexdigest() if target.exists() else None

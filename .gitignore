@@ -2,3 +2,6 @@
 __pycache__/
 *.py[cod]
 
+# Local snapshot used to prevent overwriting concurrent personal-site edits.
+/output/site-staging/baseline.json
+/.site-staging-baseline.json

@@ -10,7 +10,21 @@ A small, repeatable vocabulary practice for words Miller discovers while reading
 
 也可以直接打开项目根目录的 [index.html](index.html)。
 
-更新 `words.md` 和故事后，运行 `python3 scripts/make_overall_report.py`，即可重建报告、四篇新故事网页和网站同步文件。报告数据保存在 `output/data/miller-words-report.json`。网站文件在 `output/site-staging/` 准备完成后，用 `python3 scripts/sync_personal_site_report.py` 同步到个人网站工作区；该操作不发布网站。
+每次更新 `words.md`、故事或配图后，运行同步脚本。它会重建本地报告和故事页面，安全同步到同级 `personal-site/`，再验证站点：
+
+```bash
+bash scripts/sync_personal_site.sh
+```
+
+同步脚本检查 staging 基线以避免覆盖期间发生的站点编辑，再同步 JSON、故事、配图和已有 PDF，并运行敏感信息检查及 Astro 生产构建。它只改本地文件，不提交、不推送，也不部署服务器。内容未变时报告会保留原日期；实质更新可用 `python3 scripts/make_overall_report.py --updated YYYY-MM-DD` 指定日期，再运行同步脚本应用。
+
+同步完成并检查变更后，需要发布两个仓库时，再明确运行：
+
+```bash
+bash scripts/publish_repos.sh "Update Miller Words content" "Update Miller Words on personal-site"
+```
+
+发布脚本只提交并推送两个仓库中 Miller Words 相关的明确路径，要求二者都在 `main` 跟踪 `origin/main` 且没有已暂存改动。它不会生成、同步、构建或部署。若第二个仓库推送失败，先确认 Miller Words 已推送，再修复并重新发布 personal-site。服务器静态发布仍是独立操作，见 personal-site 的 [`deploy/SETUP.md`](../personal-site/deploy/SETUP.md)。
 
 ## Folder layout
 
