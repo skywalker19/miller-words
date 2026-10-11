@@ -1,0 +1,309 @@
+{
+  "generator": "built-in image_gen",
+  "style": "Children's cartoon vocabulary memory pictures",
+  "images": [
+    {
+      "id": "00201",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: a cheerful family kitchen. Miller hugs Grandma near a worktop; oven with a vegetable pie shows baking. Neatly separated on the worktop: broccoli florets, a round cabbage head (tight compact pale-green leaves), a red chile pepper, a corn cob, and an open loose-leaf green lettuce (clearly different from cabbage). Label \"hug\" points to their embrace; \"bake\" points to pie in oven; vegetable labels point to their respective vegetables. Exact labels: \"hug\", \"bake\", \"broccoli\", \"cabbage\", \"chile pepper\", \"corn\", \"lettuce\".",
+      "labels": [
+        "hug",
+        "bake",
+        "broccoli",
+        "cabbage",
+        "chile pepper",
+        "corn",
+        "lettuce"
+      ],
+      "file": "story-002-scene-01.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00202",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Miller sits at Grandma's coin box: three clearly separate coins, copper penny, larger silver nickel, small silver dime. The coins have no legible minted text. A large wordless nature poster behind him shows a fish whose overlapping scales form a repeated pattern, one bird feather, a porcupine with spines, and a turtle with shell and exposed soft neck skin. Labels: penny→copper coin; nickel→larger silver coin; dime→small silver coin; scales→fish scale pattern; feather→one bird feather; spines→porcupine quills; armor→turtle shell; skin→soft turtle neck.\nExact labels (verbatim): \"penny\", \"nickel\", \"dime\", \"scales\", \"feather\", \"spines\", \"armor\", \"skin\".",
+      "labels": [
+        "penny",
+        "nickel",
+        "dime",
+        "scales",
+        "feather",
+        "spines",
+        "armor",
+        "skin"
+      ],
+      "file": "story-002-scene-02.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "revision": "Restored the original fish-scales image at user request; scales meaning confirmed as 鳞片.",
+      "revision_history": [
+        {
+          "file": "story-002-scene-02-zebra.png",
+          "prompt": "Use case: precise-object-edit. Edit target: the provided Story 002 Scene 2 children's vocabulary illustration. Replace ONLY the upper-left fish on the nature poster and its circular scales enlargement with a clearly recognizable friendly zebra in side profile, showing bold black and white STRIPES on its body, plus a circular close-up of the zebra's striped coat in the same position. Change the existing top label \"scales\" to exactly \"stripes\" (s-t-r-i-p-e-s), and aim its arrow at the zebra's black and white stripes. Preserve Miller, Grandma, all three coins, coin box, feather, porcupine, turtle, the rest of the poster, framing, colors, cartoon style and image dimensions. Preserve the other labels exactly once and unchanged: \"penny\", \"nickel\", \"dime\", \"feather\", \"spines\", \"armor\", \"skin\". All eight labels must be clear and correctly spelled. No fish, no scales label, no Chinese, no added title or extra words.",
+          "status": "superseded; user requested restoration of the first fish-scales version"
+        }
+      ]
+    },
+    {
+      "id": "00203",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: A children's pretend army parade in a garden, wearing paper hats with NO weapons. Miller has just joined the cheerful line of toy soldiers. A corporal has TWO sleeve chevrons; a sergeant has THREE sleeve chevrons. Three marching children keep synchronized footsteps. Small snack inset at right shows the whole group choosing fruit instead of continuing: no child wants to stop. Precise arrows: joined→Miller joining line; army→whole pretend group; soldiers→marching children; marched→moving feet; parade→procession; corporal→two-chevron leader; sergeant→three-chevron leader; stripes→sleeve chevrons; kept→continuing movement; step→one matched footstep; Nobody→whole group with no exceptions; wanted→eager expressions looking toward parade; instead→transition arrow from marching to snack. Give 13 labels generous space.\nExact labels (verbatim): \"joined\", \"army\", \"soldiers\", \"marched\", \"parade\", \"corporal\", \"sergeant\", \"stripes\", \"kept\", \"step\", \"Nobody\", \"wanted\", \"instead\".",
+      "labels": [
+        "joined",
+        "army",
+        "soldiers",
+        "marched",
+        "parade",
+        "corporal",
+        "sergeant",
+        "stripes",
+        "kept",
+        "step",
+        "Nobody",
+        "wanted",
+        "instead"
+      ],
+      "file": "story-002-scene-03.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00204",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Garden path to house with duck pond and toy bin. Small left memory inset: Miller feeds ducks, label fed points to scattering feed. Nearby inset: he dries his hands on towel, dried points to rubbing towel. Main scene: Miller runs toward a closed toy storage bin with a small boat resting on the TOP surface of its removable lid. ran→running legs; bin→container body; lid→lid edge; top→upper surface beneath boat. Do not put boat inside bin.\nExact labels (verbatim): \"fed\", \"dried\", \"ran\", \"bin\", \"top\", \"lid\".",
+      "labels": [
+        "fed",
+        "dried",
+        "ran",
+        "bin",
+        "top",
+        "lid"
+      ],
+      "file": "story-002-scene-04.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00205",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: At a gentle shallow stream, Miller uses his hand to slide a small wooden toy raft into water; dashed motion arrow beside hand shows sliding. One small twig mast on raft is snapped, both broken ends clearly visible. Grandma kneels next to him ready to help repair it. raft points to raft body; slid points to hand sliding raft into water; broke points to snapped twig.\nExact labels (verbatim): \"raft\", \"slid\", \"broke\".",
+      "labels": [
+        "raft",
+        "slid",
+        "broke"
+      ],
+      "file": "story-002-scene-05.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00301",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Garden workbench: Dad uses a hand saw safely to build a tiny wooden hamster house, Miller carries wood pieces in a basket. Above him a small soft-edged dream bubble shows a brave hamster standing proudly in that tiny house. dream points to bubble; brave points to hamster's confident pose; hamster points to hamster; saw points to hand saw; basket points to basket.\nExact labels (verbatim): \"dream\", \"brave\", \"hamster\", \"saw\", \"basket\".",
+      "labels": [
+        "dream",
+        "brave",
+        "hamster",
+        "saw",
+        "basket"
+      ],
+      "file": "story-003-scene-01.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00302",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Garden basketball break shown as one setting with small action insets. Upper left Miller shoots a basketball toward a hoop, shoot points to shooting arms and arcing ball. Main foreground ball tightly wedged under garden workbench, stuck points to wedged ball. Right inset Miller phones Grandma, rang points to phone call with Grandma visibly at other end in small bubble. No phone text.\nExact labels (verbatim): \"shoot\", \"stuck\", \"rang\".",
+      "labels": [
+        "shoot",
+        "stuck",
+        "rang"
+      ],
+      "file": "story-003-scene-02.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00303",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: In the garden beside a workbench, Miller has taken a long rod and a scoop net to retrieve his stuck basketball. A long green weed is visibly tangled around the net mesh. His expression is mildly upset and puzzled by this odd snag. took→hand grasping tools; rod→long bare rod; net→mesh scoop; weed→tangled weed; upset→sad frustrated face; odd→unexpected tangle with small wordless question mark icon.\nExact labels (verbatim): \"took\", \"rod\", \"net\", \"weed\", \"upset\", \"odd\".",
+      "labels": [
+        "took",
+        "rod",
+        "net",
+        "weed",
+        "upset",
+        "odd"
+      ],
+      "file": "story-003-scene-03.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00304",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Garden hamster rescue: one small before inset shows hamster began running toward a hole in a low fence. Main scene shows Miller gently saving hamster with an open soft net before it reaches hole, no distress or injury. Dad beside a proper hamster cage puts a tangible real handmade wooden house inside cage. began→starting footstep in inset; saved→gentle rescue in net; real→actual wooden little house inside cage; cage→whole cage.\nExact labels (verbatim): \"began\", \"saved\", \"real\", \"cage\".",
+      "labels": [
+        "began",
+        "saved",
+        "real",
+        "cage"
+      ],
+      "file": "story-003-scene-04.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00401",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: A market sidewalk beside raised curb, no moving traffic. A toy four-wheel wagon is full of onions; one onion has rolled onto safe pavement and Miller chases it. A small earlier-moment inset shows him standing upright on curb beside wagon; an empty calendar-style week icon with seven boxes suggests a week ago, no numerals or extra text. ago→past calendar icon; stood→upright boy in inset; curb→raised pavement edge; wagon→four-wheeled toy wagon; onions→onion pile; chase→running boy following rolled onion.\nExact labels (verbatim): \"ago\", \"stood\", \"curb\", \"wagon\", \"onions\", \"chase\".",
+      "labels": [
+        "ago",
+        "stood",
+        "curb",
+        "wagon",
+        "onions",
+        "chase"
+      ],
+      "file": "story-004-scene-01.png",
+      "revision": "Corrected the chase label to an unmistakable c-h-a-s-e; other elements preserved.",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00402",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Outdoor farmer market, friendly female farmer sells Miller a cube-shaped block of cheese: sold points to handover of cheese and coin; cube points to cubical cheese. Farmer also gives him a small garden shovel and another packet of seeds beside a first packet. Nearby garden bed has young onion seedlings with roots and upward growth arrow. shovel→small shovel; another→second separate seed packet; grow→sprouting onions. No writing on seed packets.\nExact labels (verbatim): \"sold\", \"cube\", \"shovel\", \"another\", \"grow\".",
+      "labels": [
+        "sold",
+        "cube",
+        "shovel",
+        "another",
+        "grow"
+      ],
+      "file": "story-004-scene-02.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00403",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Cheerful circus tent on solid land beside blue ocean, away from tide. A paddler here means a person walking ankle-deep in shallow water WITHOUT paddle or boat. Miller at circus realizes his ticket was mistakenly left in toy wagon; small thought bubble shows ticket still in wagon, no words on ticket. circus→tent; land→dry ground under tent; ocean→open sea; paddler→person wading on foot; mistake→Miller's realization and forgotten-ticket thought bubble.\nExact labels (verbatim): \"circus\", \"land\", \"ocean\", \"paddler\", \"mistake\".",
+      "labels": [
+        "circus",
+        "land",
+        "ocean",
+        "paddler",
+        "mistake"
+      ],
+      "file": "story-004-scene-03.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00404",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Circus waiting path. A precisely ordered neat row of empty chairs sits along the path. Miller stays close to Dad while Grandma bends to him with a caring expression, hand gently on his shoulder. A small wordless imagined inset of one lonely child in a chair illustrates the meaning of alone; main boy is WITH dad. ordered→straight neat chair row; along→arrow following chairs alongside path; care→Grandma's caring gesture; alone→single child in imagined inset.\nExact labels (verbatim): \"ordered\", \"along\", \"alone\", \"care\".",
+      "labels": [
+        "ordered",
+        "along",
+        "alone",
+        "care"
+      ],
+      "file": "story-004-scene-04.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00405",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Seaside circus loading area. A compact cargo van contains a separate portable heavy traveling trunk (large suitcase with handle, NOT tree trunk and NOT vehicle boot). Dad and Miller weigh the trunk on an analog platform weighing instrument just beside van; enlarged wordless inset of dial shows tick marks. A second circular motion arrow on Dad weighing again means once more. Small destination memory inset shows family's home with arrival arrow. type→recognizable shape of van model; van→whole van; trunk→portable luggage chest; heavy→Dad effort lifting trunk; weigh→trunk placed on weighing platform; once→single repeat weighing arrow; scale→graduated TICK MARKS on enlarged dial, not whole instrument; reach→arrival arrow at home. No numerals on dial.\nExact labels (verbatim): \"type\", \"van\", \"heavy\", \"trunk\", \"weigh\", \"once\", \"scale\", \"reach\".",
+      "labels": [
+        "type",
+        "van",
+        "heavy",
+        "trunk",
+        "weigh",
+        "once",
+        "scale",
+        "reach"
+      ],
+      "file": "story-004-scene-05.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00501",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Farm shop with friendly farmer. Miller returns a lost coin to farmer honestly. Nearby paper bag holds shelled and unshelled peanuts, Miller has his own money to buy them. honest→coin return gesture; person→Miller as whole person, distinct arrow; peanuts→peanut bag. No shop signs.\nExact labels (verbatim): \"honest\", \"person\", \"peanuts\".",
+      "labels": [
+        "honest",
+        "person",
+        "peanuts"
+      ],
+      "file": "story-005-scene-01.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00502",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Beside farm shop Miller watches a goldfish swimming in a large well-cared-for aquarium. One arrow goldfish points to goldfish. Label being points to this living animal, with a small life/heartbeat icon and plant alongside to show living creature. Label else points to Miller's curious questioning gesture and thought bubble showing additional aquarium needs (clean water plant and shelter). No written sentence or sign, only three labels.\nExact labels (verbatim): \"goldfish\", \"being\", \"else\".",
+      "labels": [
+        "goldfish",
+        "being",
+        "else"
+      ],
+      "file": "story-005-scene-02.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00503",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Farm play area, a pile of dry hay beside a clearly wooden toy horse with saddle. Miller sits on the wooden horse cheerfully pretending it can run, with a small dreamlike motion cloud showing imaginary galloping, horse remains visibly wood. hay→dry straw pile; pretend→imagined galloping cloud; Giddyup→Miller's calling mouth in a speech label. No other text.\nExact labels (verbatim): \"hay\", \"pretend\", \"Giddyup\".",
+      "labels": [
+        "hay",
+        "pretend",
+        "Giddyup"
+      ],
+      "file": "story-005-scene-03.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "00504",
+      "prompt": "Use case: illustration-story. Asset type: English vocabulary memory picture for a young child. Create ONE landscape 3:2 cartoon illustration, clean outlines, bright gentle colors, simple readable composition and natural expressions. Miller is a young boy with short dark hair wearing a blue T-shirt, tan shorts and sneakers; Grandma has short gray hair and a soft green cardigan. White rounded callout labels with large dark sans-serif type and thin arrows point to the exact object or action. Every target label exactly once, verbatim, no other text, no Chinese, no title, no watermark. Keep labels separated and leave printable margins. This is a coherent scene with small memory insets only where sequential actions cannot occur together.\nScene: Farm playground behind a low wooden fence: Miller rides a simple hanging swing; another child sits on a complete seesaw with a visible center pivot and opposite seat. fence→low fence; swing→swing seat and ropes; seesaw→seesaw plank and pivot. No other text.\nExact labels (verbatim): \"fence\", \"swing\", \"seesaw\".",
+      "labels": [
+        "fence",
+        "swing",
+        "seesaw"
+      ],
+      "file": "story-005-scene-04.png",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "status": "complete"
+}

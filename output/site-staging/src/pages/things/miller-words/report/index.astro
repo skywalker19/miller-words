@@ -1,0 +1,10 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import {millerWordsOverallReport as report} from "../../../../data/miller-words-overall-report";
+import {renderReport} from "../../../../utils/render-miller-words-report.mjs";
+import "../../../../styles/miller-words-report.css";
+---
+<BaseLayout title={report.titleZh} description={report.description}>
+  <Fragment set:html={renderReport(report, {site: true})} />
+  <script is:inline src="/things/miller-words/report/report.js" defer></script>
+</BaseLayout>

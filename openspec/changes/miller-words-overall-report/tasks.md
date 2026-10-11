@@ -17,3 +17,10 @@
 
 - [x] 4.1 Run `npm run build` in `personal-site/` and verify Astro check and static generation complete without errors
 - [x] 4.2 Run local HTTP checks for the Miller Words Thing page, overall report, Story 001 HTML, four illustrations, and PDF; verify report link separation and expected successful content types
+
+## 5. Complete word-notebook entry — 2026-10-11
+
+- [x] 5.1 Generate report data from the canonical word table: 140 records, 139 distinct forms, 30 Days, five weeks, five stories and 22 scenes; preserve week provenance and daily ordinals
+- [x] 5.2 Add daily and weekly statistics, semantic detail tables, a searchable full word bank, and links to every story in the overall report; generate a local entry page and the personal-site report from the same data and renderer
+- [x] 5.3 Generate browser pages and copy existing illustrations for Stories 002–005; allow absent PDF resources so only available print versions are linked
+- [x] 5.4 Update README and the personal-site Miller Words entry, synchronize the prepared site files, and compile the Astro site successfully (zero errors, warnings or hints); leave publishing to a separate request

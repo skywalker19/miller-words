@@ -25,12 +25,23 @@ The Miller Words site SHALL provide a stable overall report that presents aggreg
 #### Scenario: Current aggregate statistics are visible
 
 - **WHEN** a visitor opens the overall report for the current word bank
-- **THEN** the report shows 45 handwritten entries, 44 unique word/phrase entries, and the eight recorded daily entry counts
+- **THEN** the report shows 140 recorded entries, 139 distinct practice word/phrase forms, all 30 recorded daily counts, and five weekly summaries
 
 #### Scenario: Daily history is understandable
 
 - **WHEN** a visitor reviews the daily statistics
 - **THEN** each recorded day has a clearly labeled count and the report distinguishes entries from unique words
+
+#### Scenario: Weekly history is understandable
+
+- **WHEN** a visitor reviews the weekly statistics
+- **THEN** each week shows its Day range, entry count, and distinct form count, with inferred weeks explicitly identified and Day distinguished from a calendar date
+
+#### Scenario: The report serves as the word-notebook entry
+
+- **WHEN** a visitor opens the overall report
+- **THEN** they can open any of Stories 001–005, search the full word list, and view word entries in week, Day, and original daily-ordinal order
+- **AND** only available printable PDFs are linked
 
 #### Scenario: The report is discoverable from Miller Words
 
